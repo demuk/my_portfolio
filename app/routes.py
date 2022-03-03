@@ -27,3 +27,13 @@ def write_to_csv(data):
         writer.writerow([email, subject, message])
 
 
+@app.route('/submit_form', methods=['GET', 'POST'])
+def submit_form():
+    if request.method == 'POST':
+        data = request.form.to_dict()
+        write_to_csv(data)
+        return render_template('/thankyou.html')
+    else:
+        return 'Please resubmit !'
+
+
