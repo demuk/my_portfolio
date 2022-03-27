@@ -8,3 +8,9 @@ MarkupSafe==2.1.1
 Werkzeug==2.0.3
 flask-wtf
 WTForms~=3.0.1
+flask-migrate
+flask-mongoengine
+flask-login
+python-dotenv
+pymongo==4.0.2
+flask-mail
