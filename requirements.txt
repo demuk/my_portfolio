@@ -11,4 +11,6 @@ WTForms~=3.0.1
 flask-migrate
 flask-login
 python-dotenv
+flask-mail
+pyjwt
 
