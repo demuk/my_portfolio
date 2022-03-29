@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=fredoka:900|Roboto+Mono:300,400,700);
+@import url(href="https://fonts.googleapis.com/css2?family=Fredoka:300,400,900|Roboto+Mono:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 /*!
@@ -74,7 +74,7 @@ dfn {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 6em;
     margin: .67em 0
 }
 
@@ -128,7 +128,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
+    font-family: 'Fredoka', sans-serif;
     font-size: 3em
 }
 
@@ -322,10 +322,10 @@ html {
 }
 
 body {
-    font-family: Roboto Mono, Helvetica, Arial, sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-size: 11px;
     line-height: 1.78;
-    color: #000;
+    color: #0d1e2d;
     background-color: #fff
 }
 
@@ -434,7 +434,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Roboto Mono, Helvetica, Arial, sans-serif;
+    font-family: Fredoka ,sans-serif;
     font-weight: 700;
     line-height: 1.1;
     color: #000
@@ -862,7 +862,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: Menlo, Monaco, Consolas, Courier New, monospace
+    font-family: Menlo, Monaco, Consolas, Courier New;
 }
 
 code {
@@ -4565,14 +4565,14 @@ tbody.collapse.in {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: #333;
+    color: #bc7201;
     background-color: transparent
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #555;
+    color: #bc7201;
     background-color: transparent
 }
 
@@ -4605,7 +4605,7 @@ tbody.collapse.in {
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
     background-color: transparent;
-    color: #555
+    color: #bc7201;
 }
 
 @media (max-width:767px) {
@@ -4622,7 +4622,7 @@ tbody.collapse.in {
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
-        color: #555;
+        color: #bc7201;
         background-color: transparent
     }
 
@@ -5687,7 +5687,7 @@ body.minimal {
 }
 
 .hero-full-container h1 {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-family: Fredoka, sans-serif;
     font-weight: 900
 }
 
@@ -5713,7 +5713,7 @@ body.minimal {
 .green-text-container h5,
 .green-text-container p {
     text-shadow: 0 1px 3px #000;
-    color: #0f0
+    color: #bc7201;
 }
 
 .green-text-container a {
