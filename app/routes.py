@@ -14,8 +14,14 @@ def about():
 
 
 @app.route('/home')
+@app.route('/')
 def home():
     return render_template('home.html')
+
+
+@app.route('/projects')
+def projects():
+    return render_template('projects.html')
 
 
 def write_to_csv(data):
