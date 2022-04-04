@@ -19,6 +19,12 @@ def home():
     return render_template('home.html')
 
 
+@app.route('/terms')
+@app.route('/')
+def terms():
+    return render_template('terms.html')
+
+
 @app.route('/projects')
 def projects():
     return render_template('projects.html')
