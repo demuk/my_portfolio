@@ -1,1 +1,1 @@
-web gunicorn application:my_portfolio.py
+web gunicorn application:__init__.py
