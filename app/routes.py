@@ -20,7 +20,6 @@ def home():
 
 
 @app.route('/terms')
-@app.route('/')
 def terms():
     return render_template('terms.html')
 
